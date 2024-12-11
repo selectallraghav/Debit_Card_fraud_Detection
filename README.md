@@ -16,8 +16,6 @@ This project focuses on detecting fraudulent transactions within a dataset of 2,
 | IP Address              | IPv4 address associated with the transaction                                |
 | MerchantID              | Unique ID for the merchant involved in the transaction                      |
 | Channel                 | Transaction channel (e.g., Online, ATM, Branch)                             |
-| CustomerAge             | Age of the account holder                                                   |
-| CustomerOccupation      | Occupation of the account holder                                            |
 | TransactionDuration     | Duration of the transaction in seconds                                      |
 | LoginAttempts           | Number of login attempts before the transaction                             |
 | AccountBalance          | Account balance after the transaction                                       |
