@@ -25,8 +25,8 @@ This project focuses on detecting fraudulent transactions within a dataset of 2,
 
 | Dataset Name                           | Description                              |
 |----------------------------------------|------------------------------------------|
-| input_data.csv | Training Data                             |
-| test_data1.csv | Test Data                                |
+| Input_Data.csv | Training Data                             |
+| Test_Data1.csv | Test Data                                |
 
 ## Fraud Detection Methodologies
 
