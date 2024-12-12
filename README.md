@@ -25,10 +25,8 @@ This project focuses on detecting fraudulent transactions within a dataset of 2,
 
 | Dataset Name                           | Description                              |
 |----------------------------------------|------------------------------------------|
-| bank_transactions_data_2.csv           | Ultimate Dataset                         |
-| debit_card_transactions_.csv           | Cleaned Debit Card Dataset               |
-| potential_fraudulent_transactions_.csv | Model Output                             |
-| debit_card_transactions_test_data_.csv | Test Data                                |
+| input_data.csv | Training Data                             |
+| test_data1.csv | Test Data                                |
 
 ## Fraud Detection Methodologies
 
@@ -39,7 +37,9 @@ This project focuses on detecting fraudulent transactions within a dataset of 2,
 | Logistic Regression   | Classifies transactions as fraud or non-fraud using supervised learning     |
 | Isolation Forest      | Highlights anomalous transactions using tree-based partitioning             |
 
-The results from these methods were consolidated into a Threat Level column, aggregating the number of fraud detections for each transaction. A higher threat level indicates a greater likelihood of fraud. To provide a prioritized view, the top 20 high-risk transactions were displayed in a color-coded threat chart. Additionally, the individual results for each method and the consolidated fraud list were saved in CSV format for further analysis.
+Intersection of the results from all above models taken into consideration to label a transaction as fraud or not. The output file will give the total number of fraudulent transactions along with their transaction details.
+
+Also, the results from these methods were consolidated into a Threat Level column, aggregating the number of fraud detections for each transaction. A higher threat level indicates a greater likelihood of fraud. To provide a prioritized view, the top 20 high-risk transactions were displayed in a color-coded threat chart. Additionally, the individual results for each method and the consolidated fraud list were saved in CSV format for further analysis.
 
 ## Note
 
