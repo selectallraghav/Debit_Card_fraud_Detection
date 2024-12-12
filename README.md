@@ -20,6 +20,7 @@ This project focuses on detecting fraudulent transactions within a dataset of 2,
 | LoginAttempts           | Number of login attempts before the transaction                             |
 | AccountBalance          | Account balance after the transaction                                       |
 | PreviousTransactionDate | Date and time of the prior transaction for the account                      |
+| CustomerID | Unique identifier for every customer                      |
 
 ## Datasets Used & Produced
 
